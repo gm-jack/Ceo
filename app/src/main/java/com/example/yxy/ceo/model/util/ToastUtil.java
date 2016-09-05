@@ -83,4 +83,8 @@ public class ToastUtil {
             Toast.makeText(context, message, duration).show();
     }
 
+    public void onlyShow(int duration){
+
+    }
+
 }

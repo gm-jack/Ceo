@@ -8,14 +8,15 @@ import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.example.yxy.ceo.R;
 import com.example.yxy.ceo.model.permission.FcPermissionsB;
 import com.example.yxy.ceo.model.permission.impl.OnPermissionsDeniedListener;
+import com.example.yxy.ceo.model.permission.impl.OnPermissionsGrantedListener;
 import com.example.yxy.ceo.model.util.BitmapUtils;
 import com.example.yxy.ceo.model.util.SPUtil;
 import com.example.yxy.ceo.model.util.ScreenUtil;
+import com.example.yxy.ceo.model.util.ToastUtil;
 
 import java.util.List;
 
@@ -66,8 +67,6 @@ public class SpalashActivity extends AppCompatActivity {
     private void initData() {
 
         iv_spalash_image.setImageBitmap(mBitmapUtils.decodeSampleBitmapFromResource(ScreenUtil.getScreenWidth(this), ScreenUtil.getScreenHeight(this), R.drawable.image_spalash));
-        //延迟跳转
-        mHandler.sendEmptyMessageDelayed(1, 2000);
     }
 
     private void initView() {
@@ -86,7 +85,14 @@ public class SpalashActivity extends AppCompatActivity {
                 .onDeniedListener(new OnPermissionsDeniedListener() {
                     @Override
                     public void onPermissionsDenied(int requestCode, List<String> perms) {
-                        Toast.makeText(SpalashActivity.this, getString(R.string.prompt_been_denied), Toast.LENGTH_SHORT).show();
+                        ToastUtil.showShort(SpalashActivity.this,getString(R.string.prompt_been_denied));
+                    }
+                })
+                .onGrantedListener(new OnPermissionsGrantedListener() {
+                    @Override
+                    public void onPermissionsGranted(int requestCode, List<String> perms) {
+                        //延迟跳转
+                        mHandler.sendEmptyMessageDelayed(1, 2000);
                     }
                 })
                 .rationale4NeverAskAgain(getString(R.string.prompt_we_need_camera))

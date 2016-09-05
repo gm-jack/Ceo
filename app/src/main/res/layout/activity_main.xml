@@ -12,7 +12,7 @@
     <ImageView
         android:id="@+id/iv_main_iamge"
         android:layout_width="match_parent"
-        android:layout_height="614px"
+        android:layout_height="430px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/include"
@@ -22,9 +22,9 @@
         android:id="@+id/rv_main_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="40px"
-        android:layout_marginLeft="40px"
-        android:layout_marginRight="40px"
+        android:layout_marginTop="14px"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
         android:layout_below="@+id/iv_main_iamge"
         android:background="@color/colorGray_ddd" />
 </RelativeLayout>
