@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     >
 
-    <LinearLayout
+    <com.example.yxy.ceo.view.autolayout.AutoLinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:focusable="true"
@@ -21,7 +21,7 @@
             android:layout_marginTop="20px"
             android:background="#CACBCC"/>
 
-        <LinearLayout
+        <com.example.yxy.ceo.view.autolayout.AutoLinearLayout
             android:layout_width="wrap_content"
             android:layout_height="108px"
             android:layout_marginLeft="50px"
@@ -48,14 +48,14 @@
                 android:textColor="#9A9A9A"
                 android:textSize="26px"/>
 
-        </LinearLayout>
+        </com.example.yxy.ceo.view.autolayout.AutoLinearLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1px"
             android:background="#CACBCC"/>
 
-        <LinearLayout
+        <com.example.yxy.ceo.view.autolayout.AutoLinearLayout
             android:layout_width="wrap_content"
             android:layout_height="108px"
             android:layout_marginLeft="50px"
@@ -82,14 +82,14 @@
                 android:textColor="#9A9A9A"
                 android:textSize="26px"/>
 
-        </LinearLayout>
+        </com.example.yxy.ceo.view.autolayout.AutoLinearLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1px"
             android:background="#CACBCC"/>
 
-        <LinearLayout
+        <com.example.yxy.ceo.view.autolayout.AutoLinearLayout
             android:layout_width="wrap_content"
             android:layout_height="108px"
             android:gravity="center"
@@ -116,7 +116,7 @@
                 android:textColor="#9A9A9A"
                 android:textSize="26px"/>
 
-        </LinearLayout>
+        </com.example.yxy.ceo.view.autolayout.AutoLinearLayout>
 
         <View
             android:layout_width="match_parent"
@@ -129,7 +129,7 @@
             android:layout_marginTop="20px"
             android:background="#CACBCC"/>
 
-        <LinearLayout
+        <com.example.yxy.ceo.view.autolayout.AutoLinearLayout
             android:layout_width="wrap_content"
             android:layout_height="108px"
             android:gravity="center"
@@ -156,14 +156,14 @@
                 android:textColor="#9A9A9A"
                 android:textSize="26px"/>
 
-        </LinearLayout>
+        </com.example.yxy.ceo.view.autolayout.AutoLinearLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1px"
             android:background="#CACBCC"/>
 
-        <LinearLayout
+        <com.example.yxy.ceo.view.autolayout.AutoLinearLayout
             android:layout_width="wrap_content"
             android:layout_height="108px"
             android:gravity="center"
@@ -191,7 +191,7 @@
                 android:textColor="#9A9A9A"
                 android:textSize="26px"/>
 
-        </LinearLayout>
+        </com.example.yxy.ceo.view.autolayout.AutoLinearLayout>
 
         <View
             android:layout_width="match_parent"
@@ -221,5 +221,5 @@
             android:text="@string/register_sure"
             android:textColor="#BABABA"
             android:textSize="26px"/>
-    </LinearLayout>
+    </com.example.yxy.ceo.view.autolayout.AutoLinearLayout>
 </ScrollView>

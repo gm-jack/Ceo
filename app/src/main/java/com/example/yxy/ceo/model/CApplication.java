@@ -14,7 +14,7 @@ public class CApplication extends Application {
     public void onCreate() {
         super.onCreate();
         //初始化px适配布局配置
-        AutoLayoutConifg.getInstance().init(this);
+        AutoLayoutConifg.getInstance().useDeviceSize().init(this);
         //读取系统语言设置
         Model.getInstance(this).setChinese(LanguageToggleUtils.isZh(this));
         //捕获异常,配置程序异常退出处理

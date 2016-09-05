@@ -32,6 +32,7 @@ public class SpalashActivity extends AppCompatActivity {
         }
     };
     private FcPermissionsB mFcPermissionsB;
+
     /**
      * 启动保存sp数据
      */
@@ -47,14 +48,14 @@ public class SpalashActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        requestCameraPermission();
+
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spalash);
-
+        requestCameraPermission();
         mBitmapUtils = new BitmapUtils(this);
 
         initView();
@@ -91,7 +92,7 @@ public class SpalashActivity extends AppCompatActivity {
                 .rationale4NeverAskAgain(getString(R.string.prompt_we_need_camera))
                 .requestCode(RC_PERMISSIONS)
                 .build();
-        mFcPermissionsB.requestPermissions(Manifest.permission_group.LOCATION,Manifest.permission_group.STORAGE);
+        mFcPermissionsB.requestPermissions(Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.READ_EXTERNAL_STORAGE);
     }
 
     @Override

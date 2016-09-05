@@ -3,13 +3,13 @@ package com.example.yxy.ceo.controller.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 
 import com.example.yxy.ceo.R;
 import com.example.yxy.ceo.base.ActivityManager;
 import com.example.yxy.ceo.base.BaseFragment;
+import com.example.yxy.ceo.view.autolayout.AutoLayoutActivity;
 
-public class CommenActivity extends AppCompatActivity {
+public class CommenActivity extends AutoLayoutActivity {
 
     public static String FRAGMENT_NAME = "fragment_name";
 
