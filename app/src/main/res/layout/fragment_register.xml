@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/title_bar"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="20px"
+            android:background="#CACBCC"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="108px"
+            android:layout_marginLeft="50px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register_name"
+                android:textColor="#5D5D5D"
+                android:textSize="26px"/>
+
+            <EditText
+                android:id="@+id/et_register_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60px"
+                android:background="@null"
+                android:inputType="text"
+                android:maxLines="1"
+                android:hint="@string/register_fill"
+                android:textColorHint="#9A9A9A"
+                android:textColor="#9A9A9A"
+                android:textSize="26px"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#CACBCC"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="108px"
+            android:layout_marginLeft="50px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register_corporation"
+                android:textColor="#5D5D5D"
+                android:textSize="26px"/>
+
+            <EditText
+                android:id="@+id/et_register_corporation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60px"
+                android:background="@null"
+                android:inputType="text"
+                android:maxLines="1"
+                android:hint="@string/register_fill"
+                android:textColorHint="#9A9A9A"
+                android:textColor="#9A9A9A"
+                android:textSize="26px"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#CACBCC"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="108px"
+            android:gravity="center"
+            android:layout_marginLeft="50px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/register_job"
+                android:textColor="#5D5D5D"
+                android:textSize="26px"/>
+
+            <EditText
+                android:id="@+id/et_register_job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60px"
+                android:background="@null"
+                android:inputType="text"
+                android:maxLines="1"
+                android:hint="@string/register_fill"
+                android:textColorHint="#9A9A9A"
+                android:textColor="#9A9A9A"
+                android:textSize="26px"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#CACBCC"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="20px"
+            android:background="#CACBCC"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="108px"
+            android:gravity="center"
+            android:layout_marginLeft="50px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/register_email"
+                android:textColor="#5D5D5D"
+                android:textSize="26px"/>
+
+            <EditText
+                android:id="@+id/et_register_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60px"
+                android:background="@null"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:hint="@string/register_fill"
+                android:textColorHint="#9A9A9A"
+                android:textColor="#9A9A9A"
+                android:textSize="26px"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#CACBCC"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="108px"
+            android:gravity="center"
+            android:layout_marginLeft="50px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/register_phone"
+                android:textColor="#5D5D5D"
+                android:textSize="26px"/>
+
+            <EditText
+                android:id="@+id/et_register_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60px"
+                android:background="@null"
+                android:ems="11"
+                android:inputType="number"
+                android:maxLines="1"
+                android:hint="@string/register_fill"
+                android:textColorHint="#9A9A9A"
+                android:textColor="#9A9A9A"
+                android:textSize="26px"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#CACBCC"/>
+
+        <Button
+            android:id="@+id/btn_register_sign"
+            android:layout_width="646px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="36px"
+            android:background="#11A9EC"
+            android:gravity="center"
+            android:paddingBottom="30px"
+            android:paddingTop="30px"
+            android:text="@string/register_sign"
+            android:textColor="@android:color/white"
+            android:textSize="30px"/>
+
+        <TextView
+            android:id="@+id/tv_register_sign_sure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:gravity="center"
+            android:text="@string/register_sure"
+            android:textColor="#BABABA"
+            android:textSize="26px"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical">
+
+    <include layout="@layout/title_bar"/>
+
+    <EditText
+        android:id="@+id/et_sign_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/round_gray_stoke"
+        android:hint="@string/sign_et_text"
+        android:padding="20px"
+        android:textColorHint="#D7D6D6"
+        android:textSize="30px"/>
+
+    <Button
+        android:id="@+id/btn_sign_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="20px"
+        android:background="#11A9EC"
+        android:padding="20px"
+        android:text="@string/sign_btn_text"
+        android:textColor="@android:color/white"
+        android:textSize="30px"/>
+
+    <TextView
+        android:id="@+id/tv_sign_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="30px"
+        android:focusable="true"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:padding="20px"
+        android:textSize="26px"/>
+
+</LinearLayout>

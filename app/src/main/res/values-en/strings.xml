@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Ceo</string>
+    <string name="title_text_main">Airports CEO forum</string>
+    <string name="title_text_sign">SignIn</string>
+    <string name="title_text_register">Register</string>
+    <string name="title_text_agender_meeting">Agenda Meeting</string>
+    <string name="title_text_airport_style">Airport Style</string>
+    <string name="title_text_business_service">Business Service</string>
+    <string name="title_text_data_download">Data Download</string>
+    <string name="title_text_faq">FAQ</string>
+    <string name="title_text_site_navigation">Site Navigation</string>
+    <string name="title_text_siting_guide">Siting Guide</string>
+    <string name="title_text_weather_forecast">Weather Forecast</string>
+    <string name="sign_btn_text">Submite</string>
+    <string name="sign_et_text">Enter invitation code</string>
+    <string name="sign_tv_text">No invitation code? Please click to register</string>
+    <string name="register_name">Name</string>
+    <string name="register_corporation">Corporation</string>
+    <string name="register_job">Job</string>
+    <string name="register_email">Email</string>
+    <string name="register_phone">Phone</string>
+    <string name="register_sign">Sign</string>
+    <string name="register_fill">Please fill in</string>
+    <string name="register_sure">Please make sure that the information is incorrect</string>
+
+    <string name="setting">Setting</string>
+    <string name="btn_camera">Camare</string>
+    <string name="cancel">Cancel</string>
+    <string name="prompt_we_need_camera">We need you to provide the relevant authority so that we can serve you better.</string>
+    <string name="prompt_request_camara">We are about to request permission from the camera?</string>
+    <string name="prompt_already_get_permission">Have access to the camera and start doing your own business!</string>
+    <string name="prompt_been_denied">Access denied</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Ceo</string>
+    <string name="title_text_main">机场CEO论坛</string>
+    <string name="title_text_sign">用户签到</string>
+    <string name="title_text_register">用户注册</string>
+    <string name="title_text_agender_meeting">会议议程</string>
+    <string name="title_text_airport_style">机场风采</string>
+    <string name="title_text_business_service">会务服务</string>
+    <string name="title_text_data_download">资料下载</string>
+    <string name="title_text_faq">FAQ</string>
+    <string name="title_text_site_navigation">会场导航</string>
+    <string name="title_text_siting_guide">座次引导</string>
+    <string name="title_text_weather_forecast">天气预报</string>
+    <string name="sign_btn_text">提   交</string>
+    <string name="sign_et_text">输入邀请码</string>
+    <string name="sign_tv_text">没有邀请码？请点击进行登记</string>
+
+    <string name="btn_camera">相机</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="prompt_we_need_camera">我们需要您提供相关权限以使我们能够更好的为您服务.</string>
+    <string name="prompt_request_camara">我们即将请求相机相关的权限.是否前往请求?</string>
+    <string name="prompt_already_get_permission">已获得相机权限,开始做自己的事吧!</string>
+    <string name="prompt_been_denied">已被拒绝获取权限</string>
+    <!--<string name="function_main_agender_meeting">会议议程</string>
+    <string name="function_main_agender_meeting">会议议程</string>
+    <string name="function_main_agender_meeting">会议议程</string>
+    <string name="function_main_agender_meeting">会议议程</string>
+    <string name="function_main_agender_meeting">会议议程</string>-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_name">姓名</string>
+    <string name="register_corporation">企业</string>
+    <string name="register_job">职位</string>
+    <string name="register_email">邮箱</string>
+    <string name="register_phone">电话</string>
+    <string name="register_sign">签到</string>
+    <string name="register_fill">请填写</string>
+    <string name="register_sure">请确认填写的信息是否有误</string>
+</resources>
